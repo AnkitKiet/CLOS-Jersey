@@ -1,5 +1,8 @@
 package com.test;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "response")
 public class ResponsePojo {
 
 	private String errorMsg;

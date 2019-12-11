@@ -6,5 +6,7 @@ public interface BaseInterface {
 
 	ResponsePojo saveData(GeneralInfoPojo jsonObject);
 
-	ResponsePojo fetchData(String name);
+	ResponsePojo fetchDataJSON(String cifNumber);
+
+	ResponsePojo fetchDataXML(String cifNumber);
 }

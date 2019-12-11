@@ -1,5 +1,8 @@
 package com.test.generalinfo;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "generalInfo")
 public class GeneralInfoPojo {
 
 	String cifNumber;
